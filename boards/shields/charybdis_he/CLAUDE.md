@@ -7,17 +7,17 @@ Charybdis HE Left half: nRF52840 MCU (Nice!Nano v2 compatible), 29 Hall Effect k
 
 ## Build and Flash
 ```
-west build -p -b nice_nano_v2 -- -DSHIELD=charybdis_he_l_left -DCONFIG_ZMK_FEATURE_HALL_EFFECT=y
+west build -p -b nice_nano_v2 -- -DSHIELD=charybdis_he_left -DCONFIG_ZMK_FEATURE_HALL_EFFECT=y
 west flash
 ```
-For right half: `-DSHIELD=charybdis_he_l_right`.
+For right half: `-DSHIELD=charybdis_he_right`.
 
 Root `build.yaml` defines CI matrix (currently empty).
 
 ## Key Files
-- `charybdis_he_l.dtsi`: Core device tree (kscan, transform).
-- `charybdis_he_l-layouts.dtsi`: Physical layout (Studio).
+- `charybdis_he.dtsi`: Core device tree (kscan, transform).
+- `charybdis_he-layouts.dtsi`: Physical layout (Studio).
 - `*-overlay`: Left/right pin configs.
-- `charybdis_he_l.keymap`: Behaviors.
-- `charybdis_he_l.conf`: Kconfig options.
+- `charybdis_he.keymap`: Behaviors.
+- `charybdis_he.conf`: Kconfig options.
 - `SPEC.md`: MUX wiring, sensor mapping (MUX1/3 Group1 on P0.17/P0.20 @ E=P0.09; MUX2/4 Group2 @ E=P0.10).

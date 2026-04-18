@@ -1,0 +1,5 @@
+config SHIELD_CHARYBDIS_HE_LEFT
+    def_bool $(shields_list_contains,charybdis_he_left)
+
+config SHIELD_CHARYBDIS_HE_RIGHT
+    def_bool $(shields_list_contains,charybdis_he_right)
