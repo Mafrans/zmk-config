@@ -1,0 +1,9 @@
+// This file was generated from a template. Edit it to match your keyboard.
+// See https://zmk.dev/docs/development/hardware-integration/new-shield for more
+// instructions.
+
+#include "charybdis_he_l.dtsi"
+
+&default_transform {
+    col-offset = <0>;
+};
