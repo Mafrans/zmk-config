@@ -3,6 +3,7 @@
 // instructions.
 
 #include <dt-bindings/zmk/matrix_transform.h>
+#include <zephyr/input/input.h>
 
 #include "charybdis_he-layouts.dtsi"
 
