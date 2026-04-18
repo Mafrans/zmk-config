@@ -19,4 +19,4 @@
 #
 
 board: ["nice_nano"]
-shield: ["charybdis-he-l"]
+shield: ["charybdis_he"]
