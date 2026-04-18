@@ -2,7 +2,7 @@
 // See https://zmk.dev/docs/development/hardware-integration/new-shield for more
 // instructions.
 
-#include "charybdis_he_l.dtsi"
+#include "charybdis_he.dtsi"
 
 &default_transform {
     col-offset = <16>;
