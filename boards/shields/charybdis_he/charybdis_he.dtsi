@@ -23,7 +23,7 @@
 		calibrate;
 
 		group0 {
-			io-channels = <&saadc 7>;  // P0.17 Group1/2 MUX1/2
+			io-channels = <&adc 7>;  // P0.17 Group1/2 MUX1/2
 			address-range-min = <0>;
 			address-range-max = <7>;
 			switch-height = <3300>;
@@ -31,7 +31,7 @@
 		};
 
 		group1 {
-			io-channels = <&saadc 6>;  // P0.20 Group1/2 MUX3/4
+			io-channels = <&adc 6>;  // P0.20 Group1/2 MUX3/4
 			address-range-min = <0>;
 			address-range-max = <7>;
 			switch-height = <3300>;
@@ -51,7 +51,7 @@
 	};
 };
 
-&saadc {
+&adc {
 	status = "okay";
 };
 
