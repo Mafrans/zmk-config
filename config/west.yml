@@ -1,12 +1,11 @@
 manifest:
   defaults:
-    revision: v0.3
+    revision: main
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: cr3eperall
       url-base: https://github.com/cr3eperall
-      revision: master
   projects:
     - name: zmk
       remote: zmkfirmware
